@@ -22,42 +22,32 @@ This project implements a simple CRUD API using Node.js, Express, and in-memory 
 1. Clone the repository:
 
 git clone https://github.com/piyushgautam16/Baxture_crud_api.git
-
 cd Baxture_crud_api
 
 
 Install dependencies:
-
 npm install
 
 Start the server:
 
 Development mode:
-
 npm run start:dev
 
 Production mode:
-
 npm run start:prod
 
 Multi-instance mode with horizontal scaling and load balancing:
-
 npm run start:multi
 
 Environment Variables
-
 The following environment variables can be set in a .env file in the root directory:
-
 PORT: Port number for the server (default: 3000)
 
 Testing
-
 To run tests, execute the following command:
-
 npm test
 
 Contributing
-
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 License
